@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="error.css" />
+    <script src="main.js" defer></script>
+
+    <title>Frontend Mentor | Contact form</title>
+  </head>
+  <body>
+    <div class="success-message hidden">
+      <div class="success-title">
+        <img src="assets/images/icon-success-check.svg" alt="" />
+        <h2>Message Sent!</h2>
+      </div>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+    <main>
+      <form>
+        <h1>Contact Us</h1>
+
+        <div class="name-container">
+          <div class="first-name-container">
+            <label class="first-name-label" for="first-name-input"
+              >First Name <span>*</span></label
+            >
+            <input type="text" id="first-name-input" name="first-name" />
+            <span class="error-message">This field is required</span>
+          </div>
+          <div class="last-name-container">
+            <label class="last-name-label" for="last-name-input"
+              >Last Name <span>*</span></label
+            >
+            <input type="text" id="last-name-input" name="last-name" />
+            <span class="error-message">This field is required</span>
+          </div>
+        </div>
+
+        <div class="email-container">
+          <label class="email-label" for="email-input"
+            >Email Address <span>*</span></label
+          >
+          <input type="text" id="email-input" name="email" />
+          <span class="error-message">Please enter a valid email address</span>
+        </div>
+
+        <div class="query-type-container">
+          <label for="query">Query Type <span>*</span></label>
+          <div class="radio-group">
+            <label class="radio-box">
+              <input type="radio" id="general" name="query-type" /><label
+                for="general"
+              >
+                General Enquiry</label
+              >
+            </label>
+
+            <label class="radio-box">
+              <input type="radio" id="support" name="query-type" /><label
+                for="support"
+                >Support Request</label
+              >
+            </label>
+          </div>
+          <span class="error-message">Please select a query type</span>
+        </div>
+
+        <div class="message-container">
+          <label for="message">Message <span>*</span></label>
+          <textarea name="message" id="message"></textarea>
+          <span class="error-message">This field is required</span>
+        </div>
+
+        <div class="checkbox-container">
+          <div class="checkbox-input-field">
+            <input type="checkbox" id="consent" name="consent" /><label
+              for="consent"
+              >I consent to being contacted by the team <span>*</span></label
+            >
+          </div>
+          <span class="error-message"
+            >To submit this form, please consent to being contacted</span
+          >
+        </div>
+
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://x.com/jnyngxi188584">Maru</a>.
+      </p>
+    </footer>
+  </body>
+</html>
