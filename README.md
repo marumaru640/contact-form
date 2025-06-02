@@ -1,6 +1,6 @@
 # Frontend Mentor - Contact form
 
-![Design preview for the Contact form coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Contact form coding challenge](./screenshots/desktop-preview.jpg)
 
 This is a solution to the [Contact form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -35,7 +35,7 @@ Users should be able to:
 
 ![全体画面](./screenshots/全体画面.png)
 
-![成功画面](./screenshots/成功メッセージ.png.png)
+![成功画面](./screenshots/成功メッセージ.png)
 
 ![エラー画面](./screenshots/エラー画面.png)
 
@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/contact-form-f4VS4oLtD0)
+- Live Site URL: [Add live site URL here](https://contact-form-tawny.vercel.app/)
 
 ## My process
 
